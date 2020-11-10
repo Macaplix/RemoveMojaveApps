@@ -1,0 +1,3 @@
+Note that in Catalina Apple stores it's trash apps in the folder /System/Applications/ 
+You can't remove it from your regular startup boot, even with csrutil disabled and using a sudo rm. It says they are readonly files, so issuing some chmod command would probably solve the issue,
+but it works just fine if you do it from the recovery drive, you just need to cd in the /System/Applications folder insted of /Applications/
